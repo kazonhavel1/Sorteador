@@ -78,7 +78,7 @@ function ativarBotao(id){
 }
 
 function sorteaNumero(min,max){
-    let numero = Math.floor(Math.random() * (max - min + 1)) + 1; //busque um número aleatório que comece pelo menor número e finalize no maior número
+    let numero = Math.floor(Math.random() * (max - min + 1)) + 1; //busque um número aleatório que comece pelo menor número e finalize no maior
     
     do{
         numero = Math.floor(Math.random() * (max - min + 1)) + min; // procure um novo numero
